@@ -9,5 +9,5 @@ array = randomgenerator(size, seed=42)
 
 startTime = time()
 quicksort(array)
-print(array[int(argv[2])])
+print(array[0])
 print(f"total time: {time()-startTime}")
